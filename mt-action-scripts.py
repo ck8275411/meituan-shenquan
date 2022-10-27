@@ -79,6 +79,9 @@ counttime = 0
 expire =0
 cwd = os.path.dirname(os.path.realpath(__file__))
 
+print("token=" + token)
+print("serverkey=" + serverkey)
+print("pushPlusToken=" + pushPlusToken)
 ##############################################################################
 ##标记这四类红包数量不为空，用来在有10元以上必中符时循环判断红包池余量抢购大额元红包，若您不需该功能，请自行将下一行的1改为0
 eight = ten = fifteen = thirty =fifty=int(os.environ.get("on"))
